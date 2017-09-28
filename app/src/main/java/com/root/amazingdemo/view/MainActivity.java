@@ -1,5 +1,6 @@
 package com.root.amazingdemo.view;
 
+
 import com.root.amazingdemo.R;
 import com.root.amazingdemo.base.BaseActivity;
 
@@ -13,7 +14,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView() {
-
     }
 
     @Override
