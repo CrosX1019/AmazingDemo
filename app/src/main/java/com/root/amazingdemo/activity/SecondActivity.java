@@ -1,25 +1,28 @@
 package com.root.amazingdemo.activity;
 
-
-import android.view.View;
 import android.widget.Button;
 
 import com.root.amazingdemo.R;
 import com.root.amazingdemo.base.BaseActivity;
 
-public class MainActivity extends BaseActivity {
+/**
+ * Created by CrosX on 2017/9/29.
+ */
 
-    private Button mMainButton;
+public class SecondActivity extends BaseActivity {
+
+    private Button mSecondButton;
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_second;
     }
 
     @Override
     protected void initView() {
-        mMainButton = $(R.id.main_button);
+        mSecondButton = $(R.id.second_button);
     }
+
 
     @Override
     protected void initData() {
@@ -28,11 +31,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initListener() {
-        mMainButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-            }
-        });
     }
 }

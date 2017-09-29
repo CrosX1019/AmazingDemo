@@ -1,8 +1,10 @@
 package com.root.amazingdemo.base;
 
 import android.os.Bundle;
+import android.support.annotation.IdRes;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 /**
  * Created by CrosX on 2017/9/27.
@@ -30,6 +32,17 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected abstract void initData();
 
     protected abstract void initListener();
+
+    /**
+     * 通过xml查找相应的ID，通用方法
+     *
+     * @param id
+     * @param <T>
+     * @return
+     */
+    protected <T extends View> T $(@IdRes int id) {
+        return (T) findViewById(id);
+    }
 
 
 }

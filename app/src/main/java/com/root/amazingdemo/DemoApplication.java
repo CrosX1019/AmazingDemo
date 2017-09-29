@@ -3,7 +3,7 @@ package com.root.amazingdemo;
 import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
-import android.util.Log;
+
 
 import com.root.amazingdemo.utils.LogUtil;
 
@@ -20,6 +20,7 @@ public class DemoApplication extends Application {
     private static DemoApplication sInstance = null;
 
     private static List<Activity> sActivities = Collections.synchronizedList(new LinkedList<Activity>());
+
 
     @Override
     public void onCreate() {
@@ -142,7 +143,6 @@ public class DemoApplication extends Application {
                  *  监听到 Activity创建事件 将该 Activity 加入list
                  */
                 pushActivity(activity);
-
             }
 
             @Override
