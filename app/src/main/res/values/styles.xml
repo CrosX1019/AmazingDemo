@@ -14,7 +14,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/fff</item>
-        <item name="layout_textSizePercent">50%</item>
+        <!--<item name="layout_textSizePercent">50%</item>-->
         <item name="android:layout_centerInParent">true</item>
     </style>
 
@@ -23,7 +23,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:src">@mipmap/ic_launcher_round</item>
-        <item name="layout_marginLeftPercent">5%w</item>
+        <!--<item name="layout_marginLeftPercent">5%w</item>-->
         <item name="android:layout_centerVertical">true</item>
     </style>
 

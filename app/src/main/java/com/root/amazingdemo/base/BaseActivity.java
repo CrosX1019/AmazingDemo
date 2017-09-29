@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
  * Created by CrosX on 2017/9/27.
  */
 
-public abstract class BaseActivity extends AppCompatActivity{
+public abstract class BaseActivity extends AppCompatActivity {
 
     //activity中调用的ActivityContext
     protected BaseActivity mActivity;
@@ -23,13 +23,13 @@ public abstract class BaseActivity extends AppCompatActivity{
         initListener();
     }
 
-    abstract protected int getLayoutId();
+    protected abstract int getLayoutId();
 
-    abstract protected void initView();
+    protected abstract void initView();
 
-    abstract protected void initData();
+    protected abstract void initData();
 
-    abstract protected void initListener();
+    protected abstract void initListener();
 
 
 }

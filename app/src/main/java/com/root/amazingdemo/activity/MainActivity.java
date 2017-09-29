@@ -1,11 +1,10 @@
-package com.root.amazingdemo.view;
+package com.root.amazingdemo.activity;
 
 
 import com.root.amazingdemo.R;
 import com.root.amazingdemo.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
-
 
     @Override
     protected int getLayoutId() {
@@ -14,6 +13,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView() {
+
     }
 
     @Override
