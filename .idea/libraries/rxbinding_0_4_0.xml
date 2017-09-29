@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="rxbinding-0.4.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/7bf994cd5b244da1a13ae5d33930936c104921b6/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/7bf994cd5b244da1a13ae5d33930936c104921b6/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/47bd1e4cfbaa0ef85f55295227a006fb3fb7d417/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/47bd1e4cfbaa0ef85f55295227a006fb3fb7d417/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
