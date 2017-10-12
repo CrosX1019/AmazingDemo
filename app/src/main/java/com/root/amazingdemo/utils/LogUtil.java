@@ -158,7 +158,5 @@ public class LogUtil {
                     + " (" + ste.getFileName() + ":" + ste.getLineNumber() + ")\n";
         }
         return "";
-
-
     }
 }

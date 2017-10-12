@@ -6,10 +6,6 @@ package com.example;
 
 public class Dog extends Animal {
 
-    @Override
-    void run() {
-        System.out.println("The dog is running!");
-    }
 
     @Override
     void eat(String food) {

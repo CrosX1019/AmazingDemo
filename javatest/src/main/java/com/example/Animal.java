@@ -6,9 +6,9 @@ package com.example;
 
 public abstract class Animal {
 
-    abstract void run();
 
     abstract void eat(String food);
 
     abstract void sleep();
+
 }
