@@ -33,6 +33,7 @@ public class MainActivity extends BaseActivity {
         mMainButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String url = "http://www.izaodao.com/Api/";
                 Retrofit retrofit = new Retrofit.Builder()
                         .baseUrl(url)
